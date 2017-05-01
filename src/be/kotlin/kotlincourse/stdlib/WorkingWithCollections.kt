@@ -23,4 +23,5 @@ fun main(args: Array<String>) {
 
     val hashMap = hashMapOf(Pair("Madrid", "Spain"))
 
+
 }
