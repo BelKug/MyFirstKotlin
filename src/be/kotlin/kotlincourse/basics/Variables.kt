@@ -16,7 +16,7 @@ fun main(args: Array<String>) {
     val years = 10
     val messageYears = "A decade is $years years"
 
-    val myCahar = 'A'
+    val myChar = 'A'
     val myString = "My String"
 
     val escapeCharacters = "A new line \n"
@@ -32,6 +32,14 @@ fun main(args: Array<String>) {
         quotes
         surrounding it
         """
+
+    val multiLinestringTrimmed = """
+        |This is a
+        |multiline string
+        |with triple
+        |quotes
+            |surrounding it
+        """.trimMargin()
 
     val myName = "Mary"
     val myNameLength = "The length of $myName is ${myName.length}"

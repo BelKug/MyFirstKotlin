@@ -32,6 +32,4 @@ class Class1and2: Interface1, Interface2{
 fun main(args: Array<String>) {
     val c =Class1and2()
     c.funA() //which interface was called?
-
-
 }
