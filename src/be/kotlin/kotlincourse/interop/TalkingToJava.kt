@@ -6,11 +6,11 @@ import be.kotlin.kotlincourse.classes.CustomerJava
  * Created by guyheylens on 17/04/17.
  */
 fun main(args: Array<String>) {
+
     val customer = CustomerJava()
     customer.email = "board@kotlin.be"
 
     customer.prettyPrint()
-
 
     /*
     * Runnable is a Java interface. Through lambdas we are directly passing the println method.
@@ -21,7 +21,6 @@ fun main(args: Array<String>) {
     val kr = KotlinRepo()
     val customerJava = kr.getById(10)
     customerJava.id
-
 
 }
 
